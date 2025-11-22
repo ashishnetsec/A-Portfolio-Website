@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashish Bihari Sharma - Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <section class="Navbar-and-Hero">
+            <nav>
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="">
+                </a>
+
+                <div class="Date-Time">
+                    <div class="date"></div>
+                    <div class="time-container">
+                        <span class="time"></span>
+                        <span class="ampm"></span>
+                    </div>
+                    <button class="toggle-format" type="button">24H</button>
+                </div>
+
+                <div class="NavBar-Bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+
+            <div class="hero-slider">
+                <div class="slide">
+                    <h1>Hi, I’m <span>Ashish</span></h1>
+                    <p>I build clean and user-friendly interfaces with HTML, CSS, and JavaScript.</p>
+                </div>
+
+                <div class="slide">
+                    <h1>I Design & Develop Web Experiences</h1>
+                    <p>Crafting sleek layouts and smooth interactions for modern web apps.</p>
+                </div>
+
+                <div class="slide">
+                    <h1>Simple. Elegant. Purposeful.</h1>
+                    <p>I write clean JS that enhances usability and solves real problems.</p>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT + PROJECTS BLOCK -->
+        <section id="about-projects" class="ap-section">
+
+            <!-- Centered summary -->
+            <div class="ap-summary-wrap">
+                <h2 class="ap-title">About Me</h2>
+
+                <div class="ap-summary">
+                    <p>
+                        I’m <strong>Ashish Bihari Sharma</strong> — a front-end focused developer training in MERN
+                        fundamentals.
+                        I build clean, fast and user-focused interfaces using HTML, CSS and JavaScript. I like readable
+                        code,
+                        compact components, and micro-interactions that improve usability without slowing the page.
+                    </p>
+
+                    <div class="ap-skill-chips">
+                        <span class="ap-chip">HTML5</span>
+                        <span class="ap-chip">CSS3</span>
+                        <span class="ap-chip">JavaScript (DOM)</span>
+                        <span class="ap-chip">Git</span>
+                        <span class="ap-chip">Node / Express</span>
+                        <span class="ap-chip">MERN Basics</span>
+                    </div>
+
+                    <a class="ap-cv" href="./images/Ashish B Sharma Resume (1).pdf" download>Download CV</a>
+                </div>
+            </div>
+
+            <!-- Projects area: two-column visual flow -->
+            <section id="projects" class="projects-themed">
+                <div class="projects-inner">
+
+                    <h2 class="project-title">My Projects</h2>
+                    <!-- Card row (you can duplicate .project-card for more items) -->
+                    <div class="projects-row">
+
+                        <article class="project-card">
+                            <div class="project-media">
+                                <!-- Replace the src with your project thumbnail -->
+                                <img class="project-thumb" src="./images/portfolio.png" alt="">
+                            </div>
+
+                            <div class="project-content">
+                                <div class="project-head">
+                                    <div class="project-badge">Featured</div>
+                                    <h3 class="project-name">Portfolio Website</h3>
+                                </div>
+
+                                <p class="project-summary">A single-page portfolio with interactive hero, project cards
+                                    and a contact form that posts to Google Sheets. Performance-first UI built with
+                                    vanilla HTML/CSS/JS.</p>
+
+                                <div class="project-meta">
+                                    <span class="project-tech">HTML · CSS · JS</span>
+                                    <span class="project-year">2025</span>
+                                </div>
+
+                                <div class="project-ctas">
+                                    <a class="project-btn project-btn-primary"
+                                        href="https://ashishnetsec.github.io/WSCubeTech-Web-Page/">Live</a>
+                                    <a class="project-btn project-btn-outline"
+                                        href="https://github.com/ashishnetsec/WSCubeTech-Web-Page">Code</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-media">
+                                <img class="project-thumb" src="./images/styleverse.png" alt="">
+                            </div>
+
+                            <div class="project-content">
+                                <div class="project-head">
+                                    <div class="project-badge">UI</div>
+                                    <h3 class="project-name">Mini E-Store UI</h3>
+                                </div>
+
+                                <p class="project-summary">Responsive product grid and modal details. Component-style
+                                    approach with accessible markup and lightweight interactivity patterns.</p>
+
+                                <div class="project-meta">
+                                    <span class="project-tech">HTML · CSS · JS</span>
+                                    <span class="project-year">2025</span>
+                                </div>
+
+                                <div class="project-ctas">
+                                    <a class="project-btn project-btn-primary"
+                                        href="https://ashishnetsec.github.io/StyleVerse-Project/">Live</a>
+                                    <a class="project-btn project-btn-outline"
+                                        href="https://github.com/ashishnetsec/StyleVerse-Project">Code</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-media">
+                                <img class="project-thumb" src="./images/myntra.png" alt="">
+                            </div>
+
+                            <div class="project-content">
+                                <div class="project-head">
+                                    <div class="project-badge">Utility</div>
+                                    <h3 class="project-name">Form → Google Sheets</h3>
+                                </div>
+
+                                <p class="project-summary">Vanilla JS form with validation that posts to Google
+                                    Forms/Sheets without a backend; includes friendly error UI and confirmations.</p>
+
+                                <div class="project-meta">
+                                    <span class="project-tech">HTML · JS · Fetch</span>
+                                    <span class="project-year">2025</span>
+                                </div>
+
+                                <div class="project-ctas">
+                                    <a class="project-btn project-btn-primary"
+                                        href="https://ashishnetsec.github.io/Myntra-Clone/">Live</a>
+                                    <a class="project-btn project-btn-outline"
+                                        href="https://github.com/ashishnetsec/Myntra-Clone">Code</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-media">
+                                <img class="project-thumb" src="./images/Screenshot 2025-11-22 144922.png" alt="">
+                            </div>
+
+                            <div class="project-content">
+                                <div class="project-head">
+                                    <div class="project-badge">Portfolio</div>
+                                    <h3 class="project-name">Dr. Angela Doe</h3>
+                                </div>
+
+                                <p class="project-summary">Responsive product grid and modal details. Component-style
+                                    approach with accessible markup and lightweight interactivity patterns.</p>
+
+                                <div class="project-meta">
+                                    <span class="project-tech">HTML · JS · Fetch</span>
+                                    <span class="project-year">2025</span>
+                                </div>
+
+                                <div class="project-ctas">
+                                    <a class="project-btn project-btn-primary"
+                                        href="https://ashishnetsec.github.io/Myntra-Clone/">Live</a>
+                                    <a class="project-btn project-btn-outline"
+                                        href="https://github.com/ashishnetsec/Myntra-Clone">Code</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-media">
+                                <img class="project-thumb" src="./images/tutorial.png" alt="">
+                            </div>
+
+                            <div class="project-content">
+                                <div class="project-head">
+                                    <div class="project-badge">UI</div>
+                                    <h3 class="project-name">Tutorial-Freaks</h3>
+                                </div>
+
+                                <p class="project-summary">Responsive product grid and modal details. Component-style
+                                    approach with accessible markup and lightweight interactivity patterns.</p>
+
+                                <div class="project-meta">
+                                    <span class="project-tech">HTML · JS · Fetch</span>
+                                    <span class="project-year">2025</span>
+                                </div>
+
+                                <div class="project-ctas">
+                                    <a class="project-btn project-btn-primary"
+                                        href="https://ashishnetsec.github.io/Tutorial-Freak/">Live</a>
+                                    <a class="project-btn project-btn-outline"
+                                        href="https://github.com/ashishnetsec/Myntra-Clone">Code</a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+
+            </div>
+        </section>
+        <!-- FAQ SECTION -->
+        <section id="faq" class="faq-section">
+            <div class="faq-inner">
+
+                <h2 class="faq-title">Frequently Asked</h2>
+
+                <!-- tabs -->
+                <div class="faq-tabs">
+                    <button class="faq-tab active" data-tab="general">General</button>
+                    <button class="faq-tab" data-tab="skills">Skills</button>
+                    <button class="faq-tab" data-tab="projects">Projects</button>
+                    <button class="faq-tab" data-tab="hire">Hiring</button>
+                    <button class="faq-tab" data-tab="tech">Technical</button>
+                </div>
+
+                <!-- tab panels -->
+                <div class="faq-panels">
+
+                    <!-- GENERAL -->
+                    <div class="faq-panel active" data-panel="general">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-q">Who are you and what do you build?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I’m Ashish Bihari Sharma. I build front-end focused web interfaces using HTML,
+                                        CSS and JavaScript — with clean markup, simple components and lightweight
+                                        micro-interactions.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">Can I download your resume?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>Yes — you can download my resume here: <a class="inline-link"
+                                            href="/mnt/data/Ashish B Sharma Resume (1).pdf" download>Download Resume
+                                            (PDF)</a>.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">Do you accept freelance or collaboration requests?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I’m open to short freelance projects and collaborations — especially front-end UI
+                                        work, portfolio sites, or small product interfaces. Use the contact form on the
+                                        site to reach me.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SKILLS -->
+                    <div class="faq-panel" data-panel="skills">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-q">Which front-end technologies do you use?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I primarily use HTML5, CSS3 and vanilla JavaScript (DOM). I also practice Git
+                                        workflow and have foundational knowledge of Node, Express and React.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">How do you handle styling & component structure?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I prefer semantic markup, scoped CSS (BEM-style or section-scoped selectors), and
+                                        small reusable components. I keep styles modular and avoid global button
+                                        overrides.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">Are your projects responsive?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>Yes — my projects are built mobile-first and use responsive grid/flex layouts.
+                                        For the hackathon I focus on pixel-clean desktop versions but include responsive
+                                        breakpoints where necessary.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECTS -->
+                    <div class="faq-panel" data-panel="projects">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-q">What projects are included in your portfolio?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>The portfolio highlights: a Portfolio site, a Mini E-Store UI, a Form → Google
+                                        Sheets integration, a Calculator App, and various UI components (sliders,
+                                        accordions, modals).</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">Do you provide live demos or code?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>Yes — each project card includes links for the live demo and the source code (if
+                                        hosted). If a demo isn’t available, the card shows details and screenshots.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">How do you test your projects?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I test for layout stability, basic keyboard accessibility, form validation, and
+                                        cross-browser rendering. Unit testing is used for backend pieces when applicable
+                                        (e.g., Node functions).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HIRING -->
+                    <div class="faq-panel" data-panel="hire">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-q">Are you available for hiring or internships?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I’m open to internships and entry-level roles focused on front-end or MERN stack.
+                                        Please reach out with role details and timelines via the contact form.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">What’s your typical handoff process?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I work from Figma or simple mockups, create a component plan, implement HTML/CSS
+                                        first, then add JS interactions. I use Git for version control and provide a
+                                        short README for setup.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">What is your expected response time?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I typically respond within 24–48 hours. For urgent hackathon or short-sprint
+                                        work, message directly via the contact form indicating priority.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TECHNICAL -->
+                    <div class="faq-panel" data-panel="tech">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-q">How do you submit form data to Google Sheets?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I use a Google Form as a bridge: the site posts to the Google Form endpoint (or
+                                        uses fetch with a serverless proxy). For no-backend solutions, a hidden iframe
+                                        or form POST to the Google Form action works reliably.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">Do you use any JS libraries for animations?
+                                    <span class="caret"></span>
+                                </button>
+                                <div class="accordion-a">
+                                    <p>I prefer small, reliable libraries like AOS for scroll entry animations, and tiny
+                                        helper libs when needed. For core interactions I use plain DOM API to avoid
+                                        dependency bloat.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-q">Will you provide the source code
+                                    <span class="caret"></span></button>
+                                <div class="accordion-a">
+                                    <p>Yes — code will be available on request or via a public GitHub link when the
+                                        project is shared. For competition rules that forbid public sharing, I follow
+                                        the stated guidelines.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+
+            <h2 class="contact-title">Contact Me</h2>
+
+            <form id="contactForm" class="contact-form">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" class="cf-first" placeholder="Enter Your First Name">
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" class="cf-last" placeholder="Enter Your Last Name">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Mobile No.</label>
+                        <input type="text" class="cf-mobile" placeholder="Enter Your Mobile No.">
+                        <span class="error-msg"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="cf-email" placeholder="Enter Your email">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Purpose</label>
+                    <textarea class="cf-purpose" rows="4" placeholder="Enter Purpose for connection"></textarea>
+                    <span class="error-msg"></span>
+                </div>
+
+                <button type="button" class="cf-submit">Submit</button>
+
+                <p class="success-msg"></p>
+
+            </form>
+        </section>
+        <!-- site footer -->
+        <footer class="site-footer">
+            <div class="footer-inner">
+
+                <div class="footer-left">
+                    <div class="footer-brand">Ashish B. Sharma</div>
+                    <div class="footer-copy">© <span class="footer-year"></span> All rights reserved.</div>
+                </div>
+                <div class="footer-social">
+
+                    <a class="footer-social-link" href="https://www.linkedin.com/in/ashish-bihari-sharma-505679215/"
+                        target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a class="footer-social-link" href="https://github.com/ashishnetsec" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a class="footer-social-link" href="mailto:aashish.9784@gmail.com" target="_blank">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+
+                    <a class="footer-social-link" href="https://wa.me/916375938990" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <a class="footer-link" href="#projects">Projects</a>
+                        <a class="footer-link" href="#contact">Contact</a>
+                        <a class="footer-link" href="/mnt/data/Ashish B Sharma Resume (1).pdf" download>Resume</a>
+                    </nav>
+
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <!-- overlay for side panel -->
+    <div id="overlay" class="panel-overlay"></div>
+
+    <!-- right sliding panel -->
+    <aside id="sidePanel" class="side-panel">
+        <div class="side-panel-inner">
+            <button class="side-close">✕</button>
+
+            <div class="side-panel-header">
+                <h3 class="side-title">Quick Menu</h3>
+                <p class="side-sub">Shortcuts & contact</p>
+            </div>
+
+            <nav class="side-links">
+                <a class="side-link" href="#about-projects">About</a>
+                <a class="side-link" href="#projects">Projects</a>
+                <a class="side-link" href="#skills-highlight">Skills</a>
+                <a class="side-link" href="#contact">Contact</a>
+                <a class="side-link" href="./images/Ashish B Sharma Resume (1).pdf" download>Download Resume (PDF)</a>
+            </nav>
+
+            <div class="side-divider"></div>
+
+
+        </div>
+    </aside>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
